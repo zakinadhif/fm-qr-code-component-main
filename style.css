@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* End of CSS Reset */
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+#qr-card {
+  width: 300px;
+}
+
+.rounded {
+  border-radius: 16px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+.text-light-gray {
+  color: var(--color-light-gray);
+}
+
+.text-grayish-blue {
+  color: var(--color-grayish-blue);
+}
+
+.text-dark-blue {
+  color: var(--color-dark-blue);
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.bg-light-gray {
+  background-color: var(--color-light-gray);
+}
+
+.container {
+  display: grid;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 400;
+}
+
+.text-lg {
+  font-size: larger;
+}
+
+.text-base {
+  font-size: 15px;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.p1 {
+  padding: 1rem;
+}
+
+.px1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.my1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.attribution {
+  padding: 1rem 0;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
